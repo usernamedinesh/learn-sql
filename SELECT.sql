@@ -25,3 +25,11 @@ FROM
 \dt
 -- view table scheama
 \d users
+--exist shell
+\q
+
+cmd:docker exec -it postgres_prod psql -U postgres -d myapp_admin
+"Run the psql command inside the container postgres_prod, and connect to the database myapp_admin as the user postgres, in an interactive terminal."
+
+how to run this current file
+cmd:docker exec -i postgres_prod psql -U postgres -d myapp_admin < SELECT.sql
