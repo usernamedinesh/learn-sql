@@ -23,4 +23,11 @@
 5. YEAR      => store year only
 
 -- Boolean
+BOOLEAN => True or false
 
+--OTHER TYPES
+BLOB =>  Binary large object (images,files)
+UUID =>  Universal unique Identifier
+JSON =>  Json-formatted text
+ENUM =>  List of predefined string(MySql)
+ARRAY => store array of element (PostgreSql)
