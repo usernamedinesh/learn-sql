@@ -11,3 +11,6 @@
 8. DOUBLE => Double precision floating point
 
 -- String (character ) data types
+CHAR(n)    => fix length string
+VARCHAR(n) => variable length string(max-length = n)
+TEXT       => Large string data
