@@ -11,6 +11,16 @@
 8. DOUBLE => Double precision floating point
 
 -- String (character ) data types
-CHAR(n)    => fix length string
-VARCHAR(n) => variable length string(max-length = n)
-TEXT       => Large string data
+1. CHAR(n)    => fix length string
+2. VARCHAR(n) => variable length string(max-length = n)
+3. TEXT       => Large string data
+
+--Date and Time
+1. DATE      => store only date (yyyy-MM-DD)
+2. TIME      => store time only (HH:MM:SS)
+3. DATETIME  => store both time & date
+4. TIMESTAMP => store timestamp (usually for row changes)
+5. YEAR      => store year only
+
+-- Boolean
+
